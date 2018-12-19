@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>Emily Short, updated to 6M62 by Shin - Glass — 7 of 25</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="author" content="Emily Short, updated to 6M62 by Shin" />
+  <meta name="description" content="A page for the game Glass by Emily Short, updated to 6M62 by Shin." />
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+ </head>
+
+<body>
+
+<div class = "container">
+
+<div class ="sourcecoverimage">
+	<span><a href="Cover.jpg"><img src="Small Cover.jpg" border="1"></a></span>
+</div>
+
+<div class ="sourceintroduction">
+	<h1>
+		<span>Glass</span> <span class="pagination">— 7 of 25</span>
+	</h1>
+	<h2>
+		<span>Emily Short, updated to 6M62 by Shin</span>
+	</h2>
+	<div class ="sourcebibliography">
+		<span>Release 1</span>
+	</div>
+</div>
+
+<div class = "links">
+<ul>
+<li><a href="index.html">Home page</a></li><li><a href="source.html">Beginning</a></li><li><a href="source_4.html">Previous</a></li><li><a href="source_6.html">Next</a></li>
+</ul>
+</div>
+
+<div class = "source">
+<p class="indent0"><span class="heading">Section 1 - Understanding</span></p><p class="indent0">Understand the command &quot;<span class="quote">ask</span>&quot; as something new. Understand the command &quot;<span class="quote">tell</span>&quot; as something new. Understand the command &quot;<span class="quote">say</span>&quot; as something new. Understand the command &quot;<span class="quote">speak</span>&quot; as something new. Understand the command &quot;<span class="quote">shout</span>&quot; as something new. Understand the command &quot;<span class="quote">answer</span>&quot; as something new. Understand the command &quot;<span class="quote">scream</span>&quot; as something new. </p><p class="indent0">Understand &quot;<span class="quote">mention no</span>&quot; as saying no. Understand &quot;<span class="quote">mention yes</span>&quot; as saying yes. Understand &quot;<span class="quote">mention sorry</span>&quot; or &quot;<span class="quote">apologize</span>&quot; as saying sorry. Understand &quot;<span class="quote">refuse</span>&quot; or &quot;<span class="quote">disagree</span>&quot; as saying no. Understand &quot;<span class="quote">approve</span>&quot; or &quot;<span class="quote">agree</span>&quot; as saying yes.</p><p class="indent0">Understand &quot;<span class="quote">mention awk/awwk/awwwk/squawk</span>&quot; as squawking.</p><p class="indent0">Understand &quot;<span class="quote">ask about [</span><span class="substitution">any subject</span><span class="quote">]</span>&quot; as mentioning. Understand &quot;<span class="quote">tell about [</span><span class="substitution">any subject</span><span class="quote">]</span>&quot; as mentioning. Understand &quot;<span class="quote">a [</span><span class="substitution">any subject</span><span class="quote">]</span>&quot; as mentioning. Understand &quot;<span class="quote">t [</span><span class="substitution">any subject</span><span class="quote">]</span>&quot; as mentioning. Understand &quot;<span class="quote">answer [</span><span class="substitution">any subject</span><span class="quote">]</span>&quot; as mentioning.</p><p class="indent0"><span class="comment">[Just for fun, let's make the game understand a wide range of parrot-appropriate squawkings, too:]</span></p><p class="indent0">Understand &quot;<span class="quote">mention [</span><span class="substitution">any subject</span><span class="quote">]</span>&quot; as mentioning. Understand the commands &quot;<span class="quote">caw</span>&quot; and &quot;<span class="quote">croak</span>&quot; and &quot;<span class="quote">squawk</span>&quot; and &quot;<span class="quote">awk</span>&quot; and &quot;<span class="quote">awwk</span>&quot; and &quot;<span class="quote">speak</span>&quot; and &quot;<span class="quote">say</span>&quot; and &quot;<span class="quote">talk</span>&quot; and &quot;<span class="quote">shout</span>&quot; and &quot;<span class="quote">scream</span>&quot; and &quot;<span class="quote">shriek</span>&quot; and &quot;<span class="quote">yell</span>&quot; and &quot;<span class="quote">screech</span>&quot; as &quot;<span class="quote">mention</span>&quot;. </p><p class="indent0"><span class="comment">[Now having given the parrot this range of expression, let's make it so that we can print that exact text back later:]</span></p><p class="indent0">To say exact verb:</p><p class="indent1">(-<span class="i6code"> print (address) verb_word; </span>-)</p><p class="indent0"><span class="comment">[But of course, if the player uses t or a the results will come out a bit strange. Therefore:]</span></p><p class="indent0">After reading a command: if the player's command includes &quot;<span class="quote">t </span>&quot;, replace the matched text with &quot;<span class="quote">say </span>&quot;; if the player's command includes &quot;<span class="quote">a </span>&quot;, replace the matched text with &quot;<span class="quote">say </span>&quot;; if the player's command includes &quot;<span class="quote">mention </span>&quot;, replace the matched text with &quot;<span class="quote">say </span>&quot;; if the player's command includes &quot;<span class="quote">speak </span>&quot;, replace the matched text with &quot;<span class="quote">say </span>&quot;.</p><p class="indent0">Instead of asking someone to try mentioning something: try mentioning the noun instead.  </p><p class="indent0"><span class="comment">[Here we handle the error case wherein someone does try to speak to a specific individual:]</span>  </p><p class="indent0">Understand &quot;<span class="quote">ask [</span><span class="substitution">someone</span><span class="quote">] about [</span><span class="substitution">text</span><span class="quote">]</span>&quot; as directed speech (with nouns reversed). Understand &quot;<span class="quote">tell [</span><span class="substitution">someone</span><span class="quote">] about [</span><span class="substitution">text</span><span class="quote">]</span>&quot; as directed speech (with nouns reversed). Understand &quot;<span class="quote">answer [</span><span class="substitution">text</span><span class="quote">] to [</span><span class="substitution">someone</span><span class="quote">]</span>&quot; as directed speech.</p><p class="indent0">Instead of answering someone that something: say &quot;<span class="quote">You can only squawk things for everyone to hear.</span>&quot;</p><p class="indent1"></p><p class="indent0"><span class="comment">[And finally, to cover the case where the player types something like SQUAWK &quot;KING&quot;:]</span></p><p class="indent0">Include Punctuation Removal by Emily Short.</p><p class="indent0">After reading a command: </p><p class="indent1">remove stray punctuation; <a name="note1ref"></a><span class="notecue"><a href="#note1">[1]</a></span></p><p class="indent1">if the player's command includes &quot;<span class="quote">&amp;</span>&quot;, replace the matched text with &quot;<span class="quote">and</span>&quot;.</p><p class="indent1"> </p>
+</div>
+
+<div class ="notes">
+<p><span class="notesheading">Note</span></p>
+<p><a name="note1"></a><span class="notetext"><a href="#note1ref">[1]</a>.  A phrase provided by the foregoing extension, which removes all quotation marks, exclamation points, and question marks from input before attempting to parse</span></p>
+
+</div>
+
+</div>
+
+</body>
+
+</html>

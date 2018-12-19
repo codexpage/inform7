@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>Emily Short, updated to 6M62 by Shin - Glass — 13 of 25</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="author" content="Emily Short, updated to 6M62 by Shin" />
+  <meta name="description" content="A page for the game Glass by Emily Short, updated to 6M62 by Shin." />
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+ </head>
+
+<body>
+
+<div class = "container">
+
+<div class ="sourcecoverimage">
+	<span><a href="Cover.jpg"><img src="Small Cover.jpg" border="1"></a></span>
+</div>
+
+<div class ="sourceintroduction">
+	<h1>
+		<span>Glass</span> <span class="pagination">— 13 of 25</span>
+	</h1>
+	<h2>
+		<span>Emily Short, updated to 6M62 by Shin</span>
+	</h2>
+	<div class ="sourcebibliography">
+		<span>Release 1</span>
+	</div>
+</div>
+
+<div class = "links">
+<ul>
+<li><a href="index.html">Home page</a></li><li><a href="source.html">Beginning</a></li><li><a href="source_10.html">Previous</a></li><li><a href="source_12.html">Next</a></li>
+</ul>
+</div>
+
+<div class = "source">
+<p class="indent0"><span class="heading">Chapter 4 - Your Behavior</span></p><p class="indent0"> </p><p class="indent0"><span class="heading">Section 1 - Looking and Waiting</span></p><p class="indent0"><span class="comment">[Because this game relies minimally on interaction with physical objects, the usual looking rules, and rules for movement, are modified to focus the player's attention on the flow of conversation. </span></p><p class="indent0"><span class="comment">In particular, we begin by overriding the default behavior that prints room descriptions at the outset of the game, and re-writing LOOK so that it doesn't actually give any information. </span></p><p class="indent0"><span class="comment">Since we're also changing the status bar, the player will never see the fact that we've labeled our location &quot;Stage&quot;.]</span></p><p class="indent0">The room description heading rule is not listed in any rulebook.  Rule for printing the name of the Stage: do nothing.</p><p class="indent0">Instead of looking for the first time:</p><p class="indent1">if turn count is 1</p><p class="indent1">begin;</p><p class="indent2">say paragraph break;</p><p class="indent2">say &quot;<span class="quote">The Prince sits awkwardly on the couch, holding his glass slipper and trying to keep it from crushing. Lucinda and Theodora have the ends of the same couch, and they are taking turns seeing who can bend lowest and show off the most cleavage; while the old lady, in her wing chair, carries on about nonsense. For instance:</span></p><p class="indent2"><span class="quote"></span></p><p class="indent2"><span class="quote">'Do tell me about your father's health,' she says, leaning toward the Prince. 'Is he still ailing? Has the Spanish doctor been able to do anything for him?'</span></p><p class="indent2"><span class="quote">The Prince looks uncomfortable: this line of reason leads directly to the problem of heirs. 'I believe so, madam,' he replies, with a bit of constraint.[</span><span class="substitution">line break</span><span class="quote">]</span>&quot;; <a name="note1ref"></a><span class="notecue"><a href="#note1">[1]</a></span></p><p class="indent1">end if.</p><p class="indent0">Instead of looking: </p><p class="indent1">say &quot;<span class="quote">You give the place a once-over with your right eye. Then you turn your head and look at everything through your left eye. It doesn't make any difference. The farther parts of the room remain out of focus.</span>&quot;</p><p class="indent1"></p><p class="indent0">Instead of examining the player:</p><p class="indent1">say &quot;<span class="quote">It's hard to have a good look at the moment, but everything feels in order, properly preened, feathers lying as they ought.</span>&quot;</p><p class="indent0">Instead of waiting:</p><p class="indent1">choose a random row in the Table of Waiting;</p><p class="indent1">say &quot;<span class="quote">[</span><span class="substitution">response entry</span><span class="quote">][</span><span class="substitution">paragraph break</span><span class="quote">]</span>&quot;.</p><p class="indent0"><span class="heading">Table of Waiting</span></p><table><tr><td><span class="columnhead">response</span></td></tr>
+<tr><td>&quot;<span class="quote">You hold your peace.</span>&quot;</td></tr>
+<tr><td>&quot;<span class="quote">You shift your weight from claw to claw.</span>&quot;</td></tr>
+<tr><td>&quot;<span class="quote">You walk down to the other end of the perch.</span>&quot;</td></tr>
+<tr><td>&quot;<span class="quote">You turn your head and look at everyone out of the other eye, for a change.</span>&quot;</td></tr>
+<tr><td>&quot;<span class="quote">You stretch your useless wings and fold them again.</span>&quot;</td></tr>
+<tr><td>&quot;<span class="quote">You yawn.</span>&quot;</td></tr>
+<tr><td>&quot;<span class="quote">Outside on the street something rattles by.</span>&quot;</td></tr>
+<tr><td>&quot;<span class="quote">The floorboards creak overhead. No one looks up.</span>&quot;</td></tr>
+</table>
+</div>
+
+<div class ="notes">
+<p><span class="notesheading">Note</span></p>
+<p><a name="note1"></a><span class="notetext"><a href="#note1ref">[1]</a>.  This bit of conversation might conventionally have gone before the banner in a When play begins... passage; but since we have no room descriptions in this game, this would mean having a banner immediately followed by a command prompt. So I decided instead to go with a null prologue and put this bit of  chat after the banner but before the command prompt.</span></p>
+
+</div>
+
+</div>
+
+</body>
+
+</html>

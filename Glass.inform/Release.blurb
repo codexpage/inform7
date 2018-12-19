@@ -1,0 +1,55 @@
+! Blurb file created by Inform build 6M62
+
+status "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/CblorbModel.html" "/Users/ywx/Documents/inform7/Glass/Glass.inform/Build/StatusCblorb.html"
+
+
+! Identification
+
+project folder "/Users/ywx/Documents/inform7/Glass/Glass.inform"
+release to "/Users/ywx/Documents/inform7/Glass/Glass.materials/Release"
+
+! Blorb instructions
+
+storyfile leafname "Glass.zblorb"
+storyfile "/Users/ywx/Documents/inform7/Glass/Glass.inform/Build/output.z8" include
+ifiction "/Users/ywx/Documents/inform7/Glass/Glass.inform/Metadata.iFiction" include
+cover "/Users/ywx/Documents/inform7/Glass/Glass.materials/Cover.jpg"
+picture 1 "/Users/ywx/Documents/inform7/Glass/Glass.materials/Cover.jpg"
+
+! Placeholder variables
+
+placeholder [IFID] = "B85B84C0-0F0D-48E3-9CF9-A1924C0E2417"
+placeholder [RELEASE] = "1"
+placeholder [YEAR] = "2006"
+placeholder [TITLE] = "Glass"
+placeholder [AUTHOR] = "Emily Short, updated to 6M62 by Shin"
+placeholder [BLURB] = "The Prince sits awkwardly on the couch, holding his glass slipper and trying to keep it from crushing. Lucinda and Theodora have the ends of the same couch, and they are taking turns seeing who can bend lowest and show off the most cleavage; while the old lady, in her wing chair, carries on about nonsense...<br/>Glass is a conversation-oriented fairy tale, taking place in one room. It was written to demonstrate one approach to handling conversation in Inform 7.<br/>Features a variety of additional verbs, non-player characters with an agenda, and narrative with multiple endings."
+
+! Other material to release
+
+source public
+solution
+auxiliary "/Users/ywx/Documents/inform7/Glass/Glass.materials/solution.txt" "Walkthrough" "--"
+auxiliary "/Users/ywx/Documents/inform7/Glass/Glass.materials/Overview.html" "Making of..." "--"
+
+! Website instructions
+
+placeholder [ENCODEDSTORYFILE] = "Glass.zblorb.js"
+template path "/Users/ywx/Documents/inform7/Glass/Glass.materials/Templates"
+template path "/Users/ywx/Library/Inform/Templates"
+template path "/Applications/Inform.app/Contents/Resources/Internal/Templates"
+placeholder [INTERPRETERSCRIPTS] = " "
+interpreter "Parchment" "z"
+base64 "/Users/ywx/Documents/inform7/Glass/Glass.inform/Build/output.z8" to "/Users/ywx/Documents/inform7/Glass/Glass.materials/Release/interpreter/Glass.zblorb.js"
+
+! Website instructions
+
+template path "/Users/ywx/Documents/inform7/Glass/Glass.materials/Templates"
+template path "/Users/ywx/Library/Inform/Templates"
+template path "/Applications/Inform.app/Contents/Resources/Internal/Templates"
+css
+website "Standard"
+status instruction ||&nbsp;<a href="source:story.ni#line9"><img border=0 src=inform:/doc_images/Reveal.tif></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory postcard'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||

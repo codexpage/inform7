@@ -1,0 +1,116 @@
+Debugging log of Inform 7
+Inform called as: /Applications/Inform.app/Contents/MacOS/ni -internal /Applications/Inform.app/Contents/Resources/Internal -external /Users/ywx/Library/Inform -project /Users/ywx/Documents/inform7/Bronze/Bronze.inform -format=ulx
+Found language bundle 'English' (built in)
+Found language bundle 'French' (built in)
+Found language bundle 'German' (built in)
+Found language bundle 'Italian' (built in)
+Found language bundle 'Spanish' (built in)
+Found language bundle 'Swedish' (built in)
+Reading language definition from </Applications/Inform.app/Contents/Resources/Internal/Languages/English/Syntax.preform>
+720 declarations read (14183 words)
+
+
+-----------------------------------------------------
+Phase I ... Lexical analysis
+-----------------------------------------------------
+
+I've now read your source text, which is 40042 words long.
+
+
+-----------------------------------------------------
+Phase II ... Semantic analysis Ia
+-----------------------------------------------------
+
+I've also read Standard Rules by Graham Nelson, which is 42655 words long.
+I've also read English Language by Graham Nelson, which is 2297 words long.
+I've also read Singing Reloaded by Shin, which is 151 words long.
+I've also read Locksmith by Emily Short, which is 4122 words long.
+I've also read Case Management by Emily Short, which is 166 words long.
+I've also read Complex Listing by Emily Short, which is 3410 words long.
+I've also read Flexible Windows by Jon Ingold, which is 7221 words long.
+I've also read Menus by Emily Short, which is 2001 words long.
+I've also read Basic Help Menu by Emily Short, which is 2368 words long.
+I've also read Glulx Entry Points by Emily Short, which is 2682 words long.
+I've also read Glulx Text Effects by Emily Short, which is 2182 words long.
+I've also read Basic Screen Effects by Emily Short, which is 2218 words long.
+
+
+-----------------------------------------------------
+Phase III ... Initialise language semantics
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+Phase IV ... Semantic analysis Ib
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+Phase V ... Semantic analysis II
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+Phase VI ... Semantic analysis III
+-----------------------------------------------------
+
+Problem PM_TableNotContinuation issued from inform7/Chapter 25/Tables.w, line 426
+
+  >--> It looks as if 'Table of Common Color Values (continued)' (/Users/ywx/Library/Inform/Extensions/jon
+    ingold/flexible windows.i7x, line 546) is meant to be related to an
+    existing table, but I can't find one if it is. Perhaps you've put the new
+    part before the original? The original has to be earlier in the source
+    text.
+
+nto[0] = -1, otn[0] = 1
+nto[1] = 0, otn[1] = 2
+nto[2] = 1, otn[2] = -1
+Problem PM_TableContinuationAddsCols issued from inform7/Chapter 25/Tables.w, line 706
+
+ In Part 5 - Fancy Screen Effects, Section 1 - Improved Status Line:
+
+
+  >--> The table 'Table of User Styles (continued)' (source text, line 3305)
+    won't work as a continuation, because it contains a column not found in the
+    original 'Table of User Styles' (/Applications/Inform.app/Contents/Resources/Internal/Extensions/emily
+    short/glulx text effects.i7x, line 30).
+
+
+    The old table has columns: style name, background color, color, first line
+    indentation, fixed width, font weight, indentation, italic, justification,
+    relative size, reversed.
+
+
+    The new table has columns: window, style name, background color.
+
+
+
+-----------------------------------------------------
+Phase VII ... Compilation now complete
+-----------------------------------------------------
+
+Total of 4 files written as streams.
+CPU time: 58 centiseconds
+
+
+That concludes the debugging log from this run of Inform.
+Its contents were as follows, and can be changed by placing
+text like 'Include property creations in the debugging log.'
+or 'Omit everything from the debugging log.' in the source.
+
+Included:
+  debugging log contents  debugging log inclusions
+Omitted:
+  action creations   action pattern compilation  action pattern parsing  assemblies    assertions    case insensitive filehandling
+  conditions    constructed past participles  constructed plurals   description compilation   excerpt meanings   excerpt parsing 
+  expressions    extensions census   figure creations   grammar    grammar construction   headings  
+  implications    inferences    kind changes   kind checking   kind creations   lexical output 
+  local variables   matching    meaning list allocation  memory allocation   noun resolution   object compilation 
+  object creations   object tree   phrase comparisons   phrase compilation   phrase creations   phrase registration 
+  phrase usage   predicate calculus   predicate calculus workings  pronouns    property creations   property provision 
+  property translations   relation definitions   rule attachments   rulebook compilation   spatial map   spatial map workings
+  specification permissions   specification usage   specificities    table construction   template reading   text substitutions 
+  time periods   variable creations   verifications    vocabulary  

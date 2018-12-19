@@ -1,0 +1,52 @@
+Solution to "Glass" by Emily Short
+
+T KING 
+T GOD 
+T RUMORS 
+Z 
+T BALL 
+T MAGIC  ... Perhaps it is time to stir up trouble.
+Choice:
+  T LUCINDA -> go to branch (1) ... You could suggest a bride.
+  Z -> go to branch (2) ... You could wait and see what happens.
+  T CINDERELLA -> go to branch (3) ... And there's always the third daughter.
+
+Branch (1)
+Z 
+Z 
+X LUCINDA 
+Choice:
+  T BLOOD -> end
+  X BLOOD -> go to branch (1.1) ... You could let this happen.
+
+Branch (1.1)
+Z 
+Z 
+
+Branch (2)
+X THEO 
+X OLD LADY 
+Z 
+LISTEN 
+Choice:
+  T POCKET -> go to branch (2.1) ...  You could betray Theo.
+  Z -> go to branch (2.2) ... You could let this happen.
+
+Branch (2.1)
+G 
+
+Branch (2.2)
+X OLD LADY 
+Z 
+
+Branch (3)
+Choice:
+  T BALL -> go to branch (3.1) ... They seem to be having some trouble communicating.
+  X CINDERELLA -> go to branch (3.2) ... You could just wait and not interfere.
+
+Branch (3.1)
+T FACE 
+T LOVE 
+
+Branch (3.2)
+Z 

@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+
+<Skein rootNode="node-1002">
+    <generator>Inform Mac Client (Inform version 1.64/6.33/6M62)</generator>
+    <item nodeId="node-1002">
+        <command xml:space="preserve">Bronze</command>
+        <result xml:space="preserve">When the seventh day comes and it is time for you to return to the castle in the forest, your sisters cling to your sleeves.
+
+"Don't go back," they say, and "When will we ever see you again?" But you imagine they will find consolation somewhere.
+
+Your father hangs back, silent and moody. He has spent the week as far from you as possible, working until late at night. Now he speaks only to ask whether the Beast treated you "properly." Since he obviously has his own ideas about what must have taken place over the past few years, you do not reply beyond a shrug.
+
+You breathe more easily once you're back in the forest, alone.
+
+
+
+Bronze
+A fractured fairy tale by Emily Short, updated to 6L38 by Shin
+Release 12 / Serial number 160124 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+
+Have you played interactive fiction before? &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1003"></child>
+        </children>
+    </item>
+    <item nodeId="node-1003">
+        <command xml:space="preserve">y</command>
+        <result xml:space="preserve">If you have not played Bronze before, you may still want to type HELP to learn about special commands unique to this game.
+
+Drawbridge
+Even in your short absence, the castle has come to look strange to you again. When you came here first, you stood a long while on the drawbridge, unready to cross the moat, for fear of the spells that might bind you if you did. This time it is too late to worry about such things.
+
+An iron-barred gate leads north.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1004"></child>
+        </children>
+    </item>
+    <item nodeId="node-1004">
+        <command xml:space="preserve">q</command>
+        <result xml:space="preserve">Are you sure you want to quit?</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1005"></child>
+        </children>
+    </item>
+    <item nodeId="node-1005">
+        <command xml:space="preserve">y</command>
+        <result xml:space="preserve"></result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+</Skein>

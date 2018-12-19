@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>Emily Short, updated to 6M62 by Shin - Glass — 5 of 25</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="author" content="Emily Short, updated to 6M62 by Shin" />
+  <meta name="description" content="A page for the game Glass by Emily Short, updated to 6M62 by Shin." />
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+ </head>
+
+<body>
+
+<div class = "container">
+
+<div class ="sourcecoverimage">
+	<span><a href="Cover.jpg"><img src="Small Cover.jpg" border="1"></a></span>
+</div>
+
+<div class ="sourceintroduction">
+	<h1>
+		<span>Glass</span> <span class="pagination">— 5 of 25</span>
+	</h1>
+	<h2>
+		<span>Emily Short, updated to 6M62 by Shin</span>
+	</h2>
+	<div class ="sourcebibliography">
+		<span>Release 1</span>
+	</div>
+</div>
+
+<div class = "links">
+<ul>
+<li><a href="index.html">Home page</a></li><li><a href="source.html">Beginning</a></li><li><a href="source_2.html">Previous</a></li><li><a href="source_4.html">Next</a></li>
+</ul>
+</div>
+
+<div class = "source">
+<p class="indent0"><span class="heading">Section 3 - Non-player Goal-seeking</span></p><p class="indent0"><span class="comment">[And here we provide the non-player characters with the instructions for how to make conversational &quot;moves&quot;.]</span></p><p class="indent0"><span class="comment">[At different scenes of the game, we will be using different conversation sets, so we need to account for this as well:]</span></p><p class="indent0">Conversation set is a table-name that varies. The conversation set is Table of Prologue Remarks.</p><p class="indent0">Definition: a subject is fruitful if it produces conversation.</p><p class="indent0"><span class="comment">[This rather bare-looking routine runs through the current conversation table and checks to see whether a given subject would be interested if someone selected it.]</span></p><p class="indent0">To decide whether (next subject - a subject) produces conversation:</p><p class="indent1">repeat through conversation set</p><p class="indent1">begin;</p><p class="indent2">if the starting entry is current subject or starting entry is blank </p><p class="indent2">begin;</p><p class="indent3">if the final entry is next subject or final entry is blank, yes;</p><p class="indent2">end if;</p><p class="indent1">end repeat;</p><p class="indent1">no. </p><p class="indent1"></p><p class="indent0"><span class="comment">[And here we look through the conversation set to see if we can find some appropriate conversation for the change of subject that just occurred, and (if so) print the dialogue.]</span></p><p class="indent1"></p><p class="indent0">To relate (initial subject - a subject) with (next subject - a subject), directly or pausing first:</p><p class="indent1">repeat through conversation set</p><p class="indent1">begin;</p><p class="indent2">if the starting entry is initial subject or starting entry is blank </p><p class="indent2">begin;</p><p class="indent3">if the final entry is next subject or final entry is blank</p><p class="indent3">begin;</p><p class="indent4">if pausing first, say &quot;<span class="quote">There is a long thoughtful silence. </span>&quot;; </p><p class="indent4">say &quot;<span class="quote">[</span><span class="substitution">comment entry</span><span class="quote">][</span><span class="substitution">paragraph break</span><span class="quote">]</span>&quot;;</p><p class="indent4">blank out the whole row;</p><p class="indent4">rule succeeds;</p><p class="indent3">end if;</p><p class="indent2">end if;</p><p class="indent1">end repeat. </p><p class="indent1"></p><p class="indent0">A person can be active or passive. <a name="note1ref"></a><span class="notecue"><a href="#note1">[1]</a></span></p><p class="indent0">Every turn when the old lady is active: </p><p class="indent1">if Theodora Endgame is happening, rule succeeds;</p><p class="indent1">if Lucinda Endgame is happening, rule succeeds;</p><p class="indent1">let pause be &quot;<span class="quote">blank</span>&quot;;</p><p class="indent1">let segue be the next step via the suggestion relation from the current subject to the target subject;</p><p class="indent1">if segue is a subject</p><p class="indent1">begin;</p><p class="indent2">while segue is not the target subject and segue is not fruitful</p><p class="indent2">begin;</p><p class="indent3">let segue be the next step via the suggestion relation from the segue to the target subject;</p><p class="indent3">let pause be &quot;<span class="quote">There's a long, thoughtful sort of pause. </span>&quot;;</p><p class="indent2">end while;</p><p class="indent2">if pause is not &quot;<span class="quote">blank</span>&quot;, </p><p class="indent3">relate the current subject with the segue, pausing first;</p><p class="indent2">otherwise relate the current subject with the segue, directly;</p><p class="indent2">now last subject is current subject;</p><p class="indent2">now current subject is segue;</p><p class="indent1">otherwise; </p><p class="indent2">now the current subject is last subject;</p><p class="indent2">if Fitting has happened</p><p class="indent2">begin;</p><p class="indent3">make no decision;</p><p class="indent2">end if;</p><p class="indent2">say &quot;<span class="quote">There's an uncomfortable silence as everyone tries to think of a sensible direction for the conversation to take from here.</span></p><p class="indent2"><span class="quote"></span></p><p class="indent2"><span class="quote">'Mm, we were speaking of [</span><span class="substitution">current subject</span><span class="quote">],' says [</span><span class="substitution">a random visible person who is not the player</span><span class="quote">].</span>&quot;;</p><p class="indent1">end if.</p><p class="indent1"></p><p class="indent0">Every turn: now the old lady is active. <a name="note2ref"></a><span class="notecue"><a href="#note2">[2]</a></span></p>
+</div>
+
+<div class ="notes">
+<p><span class="notesheading">Notes</span></p>
+<p><a name="note1"></a><span class="notetext"><a href="#note1ref">[1]</a>.  This is just a marker to keep track of whether the old lady (or any of the others) have already spoken during a turn; if so, we don't want them moving the dialogue on their own. One of my discoveries in previous conversation games is that it is usually best to limit non-player characters to one piece of dialogue behavior per turn -- either responding to something the player said OR advancing an idea of their own. If one allows them to do both, the conversation is controlled primarily by the game rather than the player, and many players find this frustrating.</span></p>
+<p><a name="note2"></a><span class="notetext"><a href="#note2ref">[2]</a>.  This rule reactivates the old lady each turn, but after the spontaneous speaking rule above has already been tried.</span></p>
+
+</div>
+
+</div>
+
+</body>
+
+</html>

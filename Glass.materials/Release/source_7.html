@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>Emily Short, updated to 6M62 by Shin - Glass — 9 of 25</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="author" content="Emily Short, updated to 6M62 by Shin" />
+  <meta name="description" content="A page for the game Glass by Emily Short, updated to 6M62 by Shin." />
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+ </head>
+
+<body>
+
+<div class = "container">
+
+<div class ="sourcecoverimage">
+	<span><a href="Cover.jpg"><img src="Small Cover.jpg" border="1"></a></span>
+</div>
+
+<div class ="sourceintroduction">
+	<h1>
+		<span>Glass</span> <span class="pagination">— 9 of 25</span>
+	</h1>
+	<h2>
+		<span>Emily Short, updated to 6M62 by Shin</span>
+	</h2>
+	<div class ="sourcebibliography">
+		<span>Release 1</span>
+	</div>
+</div>
+
+<div class = "links">
+<ul>
+<li><a href="index.html">Home page</a></li><li><a href="source.html">Beginning</a></li><li><a href="source_6.html">Previous</a></li><li><a href="source_8.html">Next</a></li>
+</ul>
+</div>
+
+<div class = "source">
+<p class="indent0"><span class="heading">Section 3 - Handling Legitimate Remarks</span></p><p class="indent0"><span class="comment">[And now at last we define the &quot;mentioning&quot; action.]</span></p><p class="indent1"></p><p class="indent0">Mentioning is an action applying to one visible thing.</p><p class="indent0">Carry out mentioning:</p><p class="indent1">say &quot;<span class="quote">'[</span><span class="substitution">awwk</span><span class="quote">]!' you [</span><span class="substitution">exact verb</span><span class="quote">]. '[</span><span class="substitution">The noun</span><span class="quote">][</span><span class="substitution">if a random chance of 1 in 3 succeeds</span><span class="quote">]! [</span><span class="substitution">The noun</span><span class="quote">][</span><span class="substitution">end if</span><span class="quote">]!'</span>&quot;; </p><p class="indent1"></p><p class="indent0"><span class="comment">[The default behavior is to print the parrot's speech (in carry out, because this is one of those rare circumstances where the action involves generating some text -- just as examining prints the description in carry out). Then the non-player characters respond by trying to fit this outcry into the flow of their conversation. We make them silent at that point (&quot;now the old lady is passive&quot;) so that their regular flow of every-turn conversation will be interrupted to deal with your intrusion.]</span></p><p class="indent0">Report mentioning:</p><p class="indent1">now the old lady is passive;</p><p class="indent1">relate the current subject with the noun, directly;</p><p class="indent2">now last subject is current subject;</p><p class="indent1">now the current subject is the noun.</p><p class="indent1"></p><p class="indent0"><span class="comment">[We can also override this behavior by giving constant responses to specific remarks:]</span></p><p class="indent0">Instead of mentioning blank: try squawking.</p><p class="indent0">Instead of mentioning God for the first time:</p><p class="indent1">say &quot;<span class="quote">'God!' you exclaim. All eyes turn slowly towards you.</span></p><p class="indent1"><span class="quote"></span></p><p class="indent1"><span class="quote">'Heavens,' says the Prince mildly. 'A pet with theological leanings. How unusual. You're most fortunate in your domesticated animals, madam.'</span></p><p class="indent1"><span class="quote">The old lady gives you a long, narrow-eyed look. Apparently she does not share the Prince's feelings on that topic.</span>&quot; </p><p class="indent0">Instead of mentioning God for the third time:</p><p class="indent1">say &quot;<span class="quote">'God!' you [</span><span class="substitution">exact verb</span><span class="quote">] again. 'Christ? Buddha? Zeus?'</span></p><p class="indent1"><span class="quote"></span></p><p class="indent1"><span class="quote">'Show-off,' Theodora mutters under her breath.</span></p><p class="indent1"><span class="quote">'That will be enough from you,' says the old lady, looking at you with eyes almost as beady as your own.</span>&quot;</p><p class="indent1"></p><p class="indent0">Carry out mentioning heirs when the current subject is king's health:</p><p class="indent1">say &quot;<span class="quote">'NEED BABIES,' you [</span><span class="substitution">exact verb</span><span class="quote">]. 'Heirs to the kingdom, heirs to the kingdom!'</span>&quot; instead.</p><p class="indent0">After mentioning the King's Health for the first time:</p><p class="indent1">say &quot;<span class="quote">The Prince glances your way and offers you a small, smiling salute.</span>&quot;</p><p class="indent0">After mentioning heirs for the first time:</p><p class="indent1">say &quot;<span class="quote">Blood rushes up into the Prince's cheeks. He doesn't look your way.</span>&quot;</p><p class="indent0"><span class="comment">[And what happens if the player squawks something that the characters are already discussing?]</span></p><p class="indent0">Report mentioning the current subject:</p><p class="indent1">repeat through Table of Bad Bird Excuses</p><p class="indent1">begin;</p><p class="indent2">say &quot;<span class="quote">[</span><span class="substitution">response entry</span><span class="quote">][</span><span class="substitution">paragraph break</span><span class="quote">]</span>&quot;;</p><p class="indent2">blank out the whole row;</p><p class="indent2">now the player is disgraced;</p><p class="indent2">rule succeeds;</p><p class="indent1">end repeat.</p><p class="indent1"></p><p class="indent0"><span class="heading">Table of Bad Bird Excuses</span></p><table><tr><td><span class="columnhead">response</span></td></tr>
+<tr><td>&quot;<span class="quote">'Don't mind our parrot,' says the lady, smiling at the Prince. 'It has very bad manners.' </span></p><span class="quote">The Prince glances at you. 'I imagine any manners at all would be above average for a bird.'</span></p><span class="quote">Lucinda smirks.</span>&quot;</td></tr>
+<tr><td>&quot;<span class="quote">'It just repeats things it hears,' says Lucinda.</span>&quot;</td></tr>
+<tr><td>&quot;<span class="quote">'Ssh,' says Lucinda to you.</span>&quot;</td></tr>
+<tr><td>&quot;<span class="quote">'Honestly,' says Lucy. </span></p><span class="quote">'It was raised by sailors,' the old lady says.</span></p><span class="quote">'Pirates,' Theodora embellishes. She likes pirates.</span></p><span class="quote">The old lady kicks her ankle.</span>&quot;</td></tr>
+</table><p class="indent1"></p>
+</div>
+
+<div class ="notes">
+
+</div>
+
+</div>
+
+</body>
+
+</html>

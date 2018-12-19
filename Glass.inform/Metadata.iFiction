@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
+    <story>
+        <identification>
+            <ifid>B85B84C0-0F0D-48E3-9CF9-A1924C0E2417</ifid>
+            <format>zcode</format>
+        </identification>
+        <bibliographic>
+            <title>Glass</title>
+            <author>Emily Short, updated to 6M62 by Shin</author>
+            <headline>A fractured fairy tale</headline>
+            <genre>Fairy Tale</genre>
+            <firstpublished>2006</firstpublished>
+            <description>The Prince sits awkwardly on the couch, holding his glass slipper and trying to keep it from crushing. Lucinda and Theodora have the ends of the same couch, and they are taking turns seeing who can bend lowest and show off the most cleavage; while the old lady, in her wing chair, carries on about nonsense...<br/>Glass is a conversation-oriented fairy tale, taking place in one room. It was written to demonstrate one approach to handling conversation in Inform 7.<br/>Features a variety of additional verbs, non-player characters with an agenda, and narrative with multiple endings.</description>
+            <language>en</language>
+            <group>Inform</group>
+        </bibliographic>
+        <resources>
+            <auxiliary>
+                <leafname>solution.txt</leafname>
+                <description>Walkthrough</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>Overview.html</leafname>
+                <description>Making of...</description>
+            </auxiliary>
+        </resources>
+        <cover>
+            <format>jpg</format>
+            <height>960</height>
+            <width>960</width>
+            <description>The cover art.</description>
+        </cover>
+        <releases>
+            <attached>
+                <release>
+                    <releasedate>2016-03-26</releasedate>
+                    <version>1</version>
+                    <compiler>Inform 7</compiler>
+                    <compilerversion>6M62</compilerversion>
+                </release>
+            </attached>
+        </releases>
+        <colophon>
+            <generator>Inform 7</generator>
+            <generatorversion>6M62</generatorversion>
+            <originated>2016-03-26</originated>
+        </colophon>
+        <zcode>
+            <serial>160326</serial>
+            <release>1</release>
+            <compiler>Inform 7 build 6M62</compiler>
+            <coverpicture>1</coverpicture>
+        </zcode>
+    </story>
+</ifindex>

@@ -1,0 +1,71 @@
+<html>
+<style>@import url(fairytale.css);
+</style>
+<title>Making of Glass</title>
+<body>
+<div id = "container">
+<h1><span>Making of "Glass"</span></h1>
+<div id="brief">
+<p>
+The brief: Demonstrate one approach to conversation in Inform, with non-player characters who pursue conversational goals, and sections of the conversation broken into scenes. This game arose from an idea about how to model conversation, so I built the model first using a handful of dummy topics, then used it to produce a story.
+</p>
+</div>
+<div id ="main">
+<p>
+Conversation is one of the most difficult things to model in Interactive Fiction, because it deals in abstracts and in things not seen. The library provides a model for physical objects and the way they interact, but in a game mostly about people's speech and feelings, we may need to come up with a way to represent ideas (what is Matilda thinking about right now?), moods (is Matilda angry?), and conversation history (what have we already said to Matilda?). It isn't always obvious how to treat such abstract things: should a conversation topic be an object? an entry in a table?
+</p>
+<p>Conversation also puts some extraordinary demands on the game's parser, the mechanism by which it understands player input. The simple commands we use to control physical objects (TAKE THE BOX, OPEN THE DOOR) are not so good for conveying the nuances of speech and personal interaction. A novice player may want to speak to other characters in complete English sentences; even a sophisticated player will need a little guidance in how to speak to characters because there are so many possible systems of communication that he won't necessarily know which to use.
+</p>
+<p>When starting a new game in which conversation is going to play a significant part, I generally ask myself (1) how the conversational knowledge will be represented within the game; and (2) how the player will specify his moves.
+</p>
+<h2><span>Information Model</span></h2>
+<p>My basic idea for the conversation model was that conversation consists of moves from one conversation topic to another. Where traditional IF tracks the player's physical location within a set of connected rooms, Glass tracks his (and the other characters') place within a set of discussion subjects. Each time someone speaks, he moves the conversation to a new subject.</p>
+<p>One advantage of this model is that it makes possible goal-seeking behavior. Both the player and the <a href = "http://www.ifwiki.org/index.php/Non-player_character">non-player characters</a> can make moves; the <a href = "http://www.ifwiki.org/index.php/Non-player_character">non-player characters</a> will do so because they have a conversational goal in mind that they're trying to reach, so we will use Inform's built-in pathfinding abilities to have them steadily approach their goal topic. For simplicity, I did not bother to model the <a href = "http://www.ifwiki.org/index.php/Non-player_character">non-player characters</a>' motivations separately. There is understood to be a narrative impetus to their conversation; the player can disrupt this or cause new goals to be substituted, but the individual characters are not fighting one another.
+</p>
+<p>
+Another advantage of the model is that it allows for a fairly large amount of conversational <i>content</i> to be associated with a small number of <i>topics</i>. This would not be ideal in all cases -- sometimes we want exactly the reverse, as in situations where the player might reasonably be asking the <a href = "http://www.ifwiki.org/index.php/Non-player_character">non-player characters</a> for a wide variety of information but where conversational flow is unimportant. For this game, though, I had in mind a focused discussion, allowing few divergences from the main issues at hand, where I did not ever want my characters to repeat a piece of dialogue.</p>
+<h2><span>Interface</span></h2>
+<p>There are a variety of common ways for the player to communicate speech commands to an interactive fiction parser, and this is not the place for a complete overview. (Though see <a href="http://emshort.home.mindspring.com/NPC4.htm">my own article on the topic</a>, <a href="http://www.tads.org/howto/convbkg.htm">Mike Roberts' comments in the TADS 3 manual</a>, and <a href ="http://www.ifwiki.org/index.php/Past_raif_topics:_NPCs_and_AI">related threads on the ifwiki</a>.)
+</p>
+<p>To some extent, these decisions are dictated by the information model (or dictate it). Here I had a model where the basic "move" consisted of changing the subject, so obviously I wanted a kind of interface that accepted keywords, rather than one that allowed the player to select banter from a menu or the like. On the other hand, I was making no distinction betwen asking and telling.
+</p>
+<p>Somewhere in here I reached the decision that my protagonist would be a parrot, therefore able to communicate its ideas only in single bursts of words. This accounts for the way the <a href = "http://www.ifwiki.org/index.php/Non-player_character">non-player characters</a> treat the player, and the fact that he has a limited ability to steer the conversation. Depending on how charitable you feel, you may choose to view this as (a) a brilliant structuring of the narrative to fit the boundaries of the technology or (b) a cop-out. In general, it is possible to simplify personal interaction in IF by restricting the abilities of the player (he's mute, he isn't allowed to speak very often, he only knows a few words of the target language, etc.); restricting the abilities of the listener (she's deaf, angry, not actually human, only interested in one topic, etc.); or placing some external constraint on them both (they have a limited number of turns in which to interact, etc.)
+</p>
+<p>
+Still, I liked this parrot idea; I particularly liked it because it did fit the traditional Grimm version of the fairy tale, in which the Prince finds out about the perfidy of the step-sisters through the timely intervention of some birds. (For some reason the Disney movie omits the part where the step-sisters' shoes are full of blood.)
+</p>
+<h2><span>Narrative Structure</span></h2>
+<p>I also decided that I wanted a highly structured game. Conversation games are extremely susceptible to shagginess and unpredictable growth, unless one sticks to a plan. After all, there are always more things that the player could reasonably want to ask about, and more directions those questions could reasonably take the conversation...</p>
+<p>
+So I decided to break the game into a series of scenes, each of which would have its own conversational goal (from the point of view of the <a href = "http://www.ifwiki.org/index.php/Non-player_character">non-player characters</a>). One scene would end, and another begin, when a conversational goal was reached. This made it easier to control the code; instead of having to write a large number of special cases, I only had to provide one table of conversation to occur within each scene. The demarcation of scenes would ensure that nothing came up in conversation before its time.
+</p>
+<p>
+I further decided that there were six logical outcomes to this story: each of the three sisters is allowed to try the shoe, and each can win or lose the marriage. In the original story, of course, the step-sisters try and lose in series before Cinderella's success; but forcing a piece of interactive fiction to fit that plot model would have stripped the player of much control. Information that conventional narrative presents serially (three attempts of which two fail) or through implication (three possibilities are considered, of which the protagonist does not try the first two because he anticipates a negative outcome), IF often presents in parallel (two possible loss endings and a win ending, not all of which can occur in the same play session). And frequently the player will play until he has seen all the endings, or at least enough of them to have a pretty good sense of what the pattern is.
+</p>
+<p>
+But. Six is a boring number; seven a vastly superior one. So I added one extra ending for caprice, a reward to a bird who takes the story completely off the rails and gets sold to pirates. We never find out the fate of the sisters in that version of the story, but our <a href = "http://www.ifwiki.org/index.php/Player-character">player character</a> has a rolicking good time.
+</p>
+<p>Having made this plan, I wrote all the scenes in fairly rapid succession, along with the conversation content necessary to get through them successfully; then I played with the game for a while and added additional conversation branches. Because conversation was represented with the tables, it was relatively easy and low-overhead to add new quips and exchanges, and the goal-seeking nature of the characters meant that even if the player took the conversation a bit off the beaten path, I could be sure the narrative would get back on target soon.
+</p>
+<h2><span>Player Experience</span></h2>
+<p>At this point I had a functional game, and I turned my attention to what the player experiences. Given the starting premise, this obviously wasn't going to be a serious piece, and that meant I could bring in some silly elements.
+</p>
+<p>We start with <a href = "http://www.ifwiki.org/index.php/Player-character">player character</a> as a parrot on a perch, but we don't tell him he's a parrot; we let him work that out, the first time he tries to act or speak. That gives him something to do during the first few turns, where the conversation is moving most slowly and the most groundwork is being laid. Somewhat later, we move to a point in the conversation where we hint heavily that uncanny interruptions would be amusing -- and let the player ham up the part.
+</p>
+<p>It's also possible that the player will want to let the story unfold without interruption some of the time, and I wanted to make that more interesting than just typing WAIT and getting a "Time passes" response. So I added multiple randomized responses to waiting, along with a bunch of time-killing actions suitable for parrots, to let the player get into his role.
+</p>
+<h2><span>Story</span></h2>
+<p>This essay begins with a great deal of modeling discussion and very little story-telling discussion; to some extent that arises from the nature of the brief, since I had set out specifically to write a conversation game, and the rest came later.
+</p>
+<p>I chose Cinderella (rather than some plot of my own devising) because it gave me one important advantage: the player already knows the story. He knows who the step-sisters are, he knows what the prince is doing with the shoe, he knows the name of the third sister who is waiting upstairs. That means that we can let him act his assigned part without having to provide very much back-story at all. This was meant to be a small, fast-playing game, and I wanted the majority of our time to be spent on action rather than discovery.
+</p>
+<p>But I did have in mind a small variation from the traditional tale: Cinderella is dangerous in a way; the step-mother's motivations are not what they initially seem; and it's very easy for the player's meddling to make things worse rather than better. I imagined that the average player would get a step-sister ending the first time, then replay, get the negative Cinderella ending, and realize that things are more complicated than he thinks; and then only get a positive Cinderella ending after a little more work. Accordingly, the negative endings are just as important to the storytelling as the positive ones, and I tried to use them to shed some light on the old lady and her reasons for doing what she does.
+</p>
+<h2><span>Polish</span></h2>
+<p>Next I ran the game through testing. The number of testers needed for a game, and the length of the testing cycle, can vary a lot, but this is a small, short game, so I showed it to three testers, collected transcripts of their play experiences, and then modified the game to correct the problems they found. For a larger game, I would have used a larger number of testers, and would have gone through the testing cycle multiple times.
+</p>
+<p>Because the mechanism of conversation keeps the game moving rapidly, I found I did not have to worry too much about the possibility that the player would get stuck outright; the game will come to some conclusion or other within a given number of moves. Much of what was added at this phase was cosmetic: a wider range of verbs for various bird activities, including crude ones; a variety of additional conversational responses; and some better parsing for certain activities.</p>
+</div>
+</div>
+</body>
+</html>
