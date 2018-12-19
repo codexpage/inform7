@@ -1,0 +1,1947 @@
+<?xml version="1.0"?>
+
+<Skein rootNode="node-1118">
+    <generator>Inform Mac Client (Inform version 1.64/6.33/6M62)</generator>
+    <item nodeId="node-1118">
+        <command xml:space="preserve">mygame</command>
+        <result xml:space="preserve">
+
+
+hello, welcome to this game. This game is developed by ywx for a test. if you never play this kind of game before. you can ask for help. 
+mygame
+An Interactive Fiction by ywx
+Release 1 / Serial number 160326 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+White room
+the room is white and empty, only with elm talble in the center. You don't know why you are here, you desire to go out. 
+
+to the south is black room
+
+You can see an iron door, a sword and elm table (on which is key) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1284"></child>
+            <child nodeId="node-1247"></child>
+            <child nodeId="node-1242"></child>
+            <child nodeId="node-1119"></child>
+            <child nodeId="node-1221"></child>
+            <child nodeId="node-1327"></child>
+            <child nodeId="node-1146"></child>
+            <child nodeId="node-1138"></child>
+            <child nodeId="node-1253"></child>
+            <child nodeId="node-1329"></child>
+            <child nodeId="node-1357"></child>
+            <child nodeId="node-1132"></child>
+            <child nodeId="node-1196"></child>
+            <child nodeId="node-1129"></child>
+            <child nodeId="node-1226"></child>
+        </children>
+    </item>
+    <item nodeId="node-1226">
+        <command xml:space="preserve">x me</command>
+        <result xml:space="preserve">you foget who you are.is it strange?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1129">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1130"></child>
+        </children>
+    </item>
+    <item nodeId="node-1130">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Black room
+the room is black and dimmed stuffed with gloomy atmosphere, you don't like to stay here for long.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1131"></child>
+        </children>
+    </item>
+    <item nodeId="node-1131">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+White room
+the room is white and empty, only with elm talble in the center. You don't know why you are here, you desire to go out. There is a door lead to south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1196">
+        <command xml:space="preserve">take table</command>
+        <result xml:space="preserve">That's fixed in place.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1197"></child>
+        </children>
+    </item>
+    <item nodeId="node-1197">
+        <command xml:space="preserve">hit</command>
+        <result xml:space="preserve">What do you want to hit?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1198"></child>
+        </children>
+    </item>
+    <item nodeId="node-1198">
+        <command xml:space="preserve">hit table</command>
+        <result xml:space="preserve">Violence isn't the answer to this one.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1199"></child>
+        </children>
+    </item>
+    <item nodeId="node-1199">
+        <command xml:space="preserve">l table</command>
+        <result xml:space="preserve">it's a heavy table.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1200"></child>
+        </children>
+    </item>
+    <item nodeId="node-1200">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">White room
+the room is white and empty, only with elm talble in the center. You don't know why you are here, you desire to go out. 
+
+There is a door lead to south.
+
+You can see a sword and elm table here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1201"></child>
+        </children>
+    </item>
+    <item nodeId="node-1201">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">White room
+the room is white and empty, only with elm talble in the center. You don't know why you are here, you desire to go out. 
+
+There is a door lead to south.
+
+You can see a sword and elm table here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1202"></child>
+        </children>
+    </item>
+    <item nodeId="node-1202">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">White room
+the room is white and empty, only with elm talble in the center. You don't know why you are here, you desire to go out. 
+
+There is a door lead to south.
+
+You can see a sword and elm table here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1203"></child>
+        </children>
+    </item>
+    <item nodeId="node-1203">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+black room
+the room is black and dimmed stuffed with gloomy atmosphere, you don't like to stay here for long.
+
+You can see an iron door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1204"></child>
+        </children>
+    </item>
+    <item nodeId="node-1204">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening the iron door)
+
+whilte room
+You can see an iron door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1132">
+        <command xml:space="preserve">take sword</command>
+        <result xml:space="preserve">you take the sword and you find something written on the balde.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1133"></child>
+            <child nodeId="node-1171"></child>
+        </children>
+    </item>
+    <item nodeId="node-1171">
+        <command xml:space="preserve">take sword</command>
+        <result xml:space="preserve">You already have that.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1172"></child>
+        </children>
+    </item>
+    <item nodeId="node-1172">
+        <command xml:space="preserve">drop sword</command>
+        <result xml:space="preserve">Dropped.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1173"></child>
+        </children>
+    </item>
+    <item nodeId="node-1173">
+        <command xml:space="preserve">take sword</command>
+        <result xml:space="preserve">you take the sword and you find something written on the balde.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1133">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a sword
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1134"></child>
+        </children>
+    </item>
+    <item nodeId="node-1134">
+        <command xml:space="preserve">l sword</command>
+        <result xml:space="preserve">the sword is light in you hand with thrilling silver blade.on the blade written "8732" 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1357">
+        <command xml:space="preserve">take key &amp; unlock door</command>
+        <result xml:space="preserve">I only understood you as far as wanting to take key.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1358"></child>
+        </children>
+    </item>
+    <item nodeId="node-1358">
+        <command xml:space="preserve">unlock door</command>
+        <result xml:space="preserve">What do you want to unlock the iron door with?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1359"></child>
+        </children>
+    </item>
+    <item nodeId="node-1359">
+        <command xml:space="preserve">with key</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1360"></child>
+        </children>
+    </item>
+    <item nodeId="node-1360">
+        <command xml:space="preserve">take key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1361"></child>
+        </children>
+    </item>
+    <item nodeId="node-1361">
+        <command xml:space="preserve">unlock door</command>
+        <result xml:space="preserve">(with key)
+You unlock the iron door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1362"></child>
+        </children>
+    </item>
+    <item nodeId="node-1362">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">(first opening the iron door)
+
+black room
+the room is black and dimmed stuffed with gloomy atmosphere, you don't like to stay here for long.
+
+You can see an iron door and wooden box (in which is a bottle of milk) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1363"></child>
+        </children>
+    </item>
+    <item nodeId="node-1363">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+orange room
+The room is painted totally orange. 
+
+there is a strange button on the wall
+
+You can also see Cao ye here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1364"></child>
+        </children>
+    </item>
+    <item nodeId="node-1364">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1365"></child>
+        </children>
+    </item>
+    <item nodeId="node-1365">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+green room
+a room in shiny green
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1366"></child>
+        </children>
+    </item>
+    <item nodeId="node-1366">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">green room
+a room in shiny green
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1367"></child>
+        </children>
+    </item>
+    <item nodeId="node-1367">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">green room
+a room in shiny green
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1329">
+        <command xml:space="preserve">take key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1330"></child>
+            <child nodeId="node-1341"></child>
+        </children>
+    </item>
+    <item nodeId="node-1341">
+        <command xml:space="preserve">open door</command>
+        <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1342"></child>
+        </children>
+    </item>
+    <item nodeId="node-1342">
+        <command xml:space="preserve">unlock door</command>
+        <result xml:space="preserve">(with key)
+You unlock the iron door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1343"></child>
+        </children>
+    </item>
+    <item nodeId="node-1343">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">(first opening the iron door)
+
+black room
+the room is black and dimmed stuffed with gloomy atmosphere, you don't like to stay here for long.
+
+You can see an iron door and wooden box (in which is a bottle of milk) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1344"></child>
+        </children>
+    </item>
+    <item nodeId="node-1344">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+orange room
+The room is painted totally orange. 
+
+there is a strange button on the wall
+
+You can also see Cao ye here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1345"></child>
+        </children>
+    </item>
+    <item nodeId="node-1345">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1330">
+        <command xml:space="preserve">drop key</command>
+        <result xml:space="preserve">Dropped.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1331"></child>
+        </children>
+    </item>
+    <item nodeId="node-1331">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">White room
+the room is white and empty, only with elm talble in the center. You don't know why you are here, you desire to go out. 
+
+to the south is black room
+
+You can see key, an iron door, a sword and elm table here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1332"></child>
+        </children>
+    </item>
+    <item nodeId="node-1332">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">(first opening the iron door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1333"></child>
+        </children>
+    </item>
+    <item nodeId="node-1333">
+        <command xml:space="preserve">open</command>
+        <result xml:space="preserve">What do you want to open?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1334"></child>
+        </children>
+    </item>
+    <item nodeId="node-1334">
+        <command xml:space="preserve">door</command>
+        <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1335"></child>
+        </children>
+    </item>
+    <item nodeId="node-1335">
+        <command xml:space="preserve">take key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1336"></child>
+        </children>
+    </item>
+    <item nodeId="node-1336">
+        <command xml:space="preserve">open door</command>
+        <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1337"></child>
+        </children>
+    </item>
+    <item nodeId="node-1337">
+        <command xml:space="preserve">use key to open door</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1338"></child>
+        </children>
+    </item>
+    <item nodeId="node-1338">
+        <command xml:space="preserve">unlock door</command>
+        <result xml:space="preserve">(with key)
+That doesn't seem to fit the lock.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1339"></child>
+        </children>
+    </item>
+    <item nodeId="node-1339">
+        <command xml:space="preserve">unlock door with key</command>
+        <result xml:space="preserve">That doesn't seem to fit the lock.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1253">
+        <command xml:space="preserve">s s</command>
+        <result xml:space="preserve">(first opening the iron door)
+
+black room
+the room is black and dimmed stuffed with gloomy atmosphere, you don't like to stay here for long.
+
+You can see an iron door and wooden box (in which is a bottle of milk) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1254"></child>
+        </children>
+    </item>
+    <item nodeId="node-1254">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+orange room
+The room is painted totally orange. 
+
+You can see Cao ye here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1255"></child>
+        </children>
+    </item>
+    <item nodeId="node-1255">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">orange room
+The room is painted totally orange. 
+
+You can see Cao ye here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1256"></child>
+        </children>
+    </item>
+    <item nodeId="node-1256">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">orange room
+The room is painted totally orange. 
+
+You can see Cao ye here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1257"></child>
+        </children>
+    </item>
+    <item nodeId="node-1257">
+        <command xml:space="preserve">l button</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1138">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">(first opening the iron door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1139"></child>
+            <child nodeId="node-1165"></child>
+            <child nodeId="node-1314"></child>
+            <child nodeId="node-1305"></child>
+            <child nodeId="node-1180"></child>
+        </children>
+    </item>
+    <item nodeId="node-1180">
+        <command xml:space="preserve">walk south</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1305">
+        <command xml:space="preserve">take milk</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1306"></child>
+        </children>
+    </item>
+    <item nodeId="node-1306">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+orange room
+The room is painted totally orange. 
+
+there is a strange button on the wall
+
+You can also see Cao ye here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1307"></child>
+        </children>
+    </item>
+    <item nodeId="node-1307">
+        <command xml:space="preserve">ask cao for hat</command>
+        <result xml:space="preserve">Cao ye: thanks for the milk, take this.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1308"></child>
+        </children>
+    </item>
+    <item nodeId="node-1308">
+        <command xml:space="preserve">ask cao</command>
+        <result xml:space="preserve">(for the top hat)
+no
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1309"></child>
+        </children>
+    </item>
+    <item nodeId="node-1309">
+        <command xml:space="preserve">ask cao</command>
+        <result xml:space="preserve">(for the top hat)
+no
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1310"></child>
+        </children>
+    </item>
+    <item nodeId="node-1310">
+        <command xml:space="preserve">ask no</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1311"></child>
+        </children>
+    </item>
+    <item nodeId="node-1311">
+        <command xml:space="preserve">say cao</command>
+        <result xml:space="preserve">(to Cao ye)
+There is no reply.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1312"></child>
+        </children>
+    </item>
+    <item nodeId="node-1312">
+        <command xml:space="preserve">ask cao for h</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1314">
+        <command xml:space="preserve">take button</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1315"></child>
+        </children>
+    </item>
+    <item nodeId="node-1315">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+orange room
+The room is painted totally orange. 
+
+there is a strange button on the wall
+
+You can also see Cao ye here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1316"></child>
+        </children>
+    </item>
+    <item nodeId="node-1316">
+        <command xml:space="preserve">take button</command>
+        <result xml:space="preserve">the buttton is fixed on the wall
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1317"></child>
+        </children>
+    </item>
+    <item nodeId="node-1317">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">orange room
+The room is painted totally orange. 
+
+there is a strange button on the wall
+
+You can also see Cao ye here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1318"></child>
+        </children>
+    </item>
+    <item nodeId="node-1318">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1319"></child>
+        </children>
+    </item>
+    <item nodeId="node-1319">
+        <command xml:space="preserve">read</command>
+        <result xml:space="preserve">What do you want to read?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1320"></child>
+        </children>
+    </item>
+    <item nodeId="node-1320">
+        <command xml:space="preserve">read book</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1321"></child>
+        </children>
+    </item>
+    <item nodeId="node-1321">
+        <command xml:space="preserve">showme</command>
+        <result xml:space="preserve">orange room - room
+    yourself - person
+    Cao ye - man
+        top hat (worn)
+    button
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1322"></child>
+        </children>
+    </item>
+    <item nodeId="node-1322">
+        <command xml:space="preserve">show me cao</command>
+        <result xml:space="preserve">(first taking Cao ye)
+I don't suppose Cao ye would care for that.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1323"></child>
+        </children>
+    </item>
+    <item nodeId="node-1323">
+        <command xml:space="preserve">showme cao</command>
+        <result xml:space="preserve">Cao ye - man
+    top hat (worn)
+location: in orange room
+singular-named, proper-named; unlit, inedible, portable; male
+list grouping key: none
+printed name: "Cao ye"
+printed plural name: "men"
+indefinite article: none
+description: "Cao ye is a man who experienced years of wind and frost. You have a feeling of deja vu on him. he wears a top hat"
+initial appearance: none
+carrying capacity: 100
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1324"></child>
+        </children>
+    </item>
+    <item nodeId="node-1324">
+        <command xml:space="preserve">test</command>
+        <result xml:space="preserve">&gt;--&gt; No test scripts exist for this game.
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1325"></child>
+        </children>
+    </item>
+    <item nodeId="node-1325">
+        <command xml:space="preserve">undo</command>
+        <result xml:space="preserve">orange room
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1165">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">(first opening the iron door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1169"></child>
+            <child nodeId="node-1246"></child>
+            <child nodeId="node-1260"></child>
+            <child nodeId="node-1166"></child>
+            <child nodeId="node-1183"></child>
+            <child nodeId="node-1263"></child>
+        </children>
+    </item>
+    <item nodeId="node-1263">
+        <command xml:space="preserve">take button</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1183">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">(first opening the iron door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1272"></child>
+            <child nodeId="node-1349"></child>
+            <child nodeId="node-1188"></child>
+            <child nodeId="node-1184"></child>
+            <child nodeId="node-1267"></child>
+        </children>
+    </item>
+    <item nodeId="node-1267">
+        <command xml:space="preserve">take hat</command>
+        <result xml:space="preserve">That seems to belong to Cao ye.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1268"></child>
+        </children>
+    </item>
+    <item nodeId="node-1268">
+        <command xml:space="preserve">ask cao for hat</command>
+        <result xml:space="preserve">Cao ye has better things to do.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1184">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1188">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1349">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1350"></child>
+        </children>
+    </item>
+    <item nodeId="node-1350">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1351"></child>
+        </children>
+    </item>
+    <item nodeId="node-1351">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">(first opening the iron door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1352"></child>
+        </children>
+    </item>
+    <item nodeId="node-1352">
+        <command xml:space="preserve">take key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1353"></child>
+        </children>
+    </item>
+    <item nodeId="node-1353">
+        <command xml:space="preserve">unlock door</command>
+        <result xml:space="preserve">(with key)
+You unlock the iron door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1354"></child>
+        </children>
+    </item>
+    <item nodeId="node-1354">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">(first opening the iron door)
+
+black room
+the room is black and dimmed stuffed with gloomy atmosphere, you don't like to stay here for long.
+
+You can see an iron door and wooden box (in which is a bottle of milk) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1355"></child>
+        </children>
+    </item>
+    <item nodeId="node-1355">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+orange room
+The room is painted totally orange. 
+
+there is a strange button on the wall
+
+You can also see Cao ye here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1356"></child>
+        </children>
+    </item>
+    <item nodeId="node-1356">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+green room
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1272">
+        <command xml:space="preserve">ask cao for hat</command>
+        <result xml:space="preserve">no
+Cao ye has better things to do.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1166">
+        <command xml:space="preserve">open door</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1260">
+        <command xml:space="preserve">l button</command>
+        <result xml:space="preserve">You see nothing special about button.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1246">
+        <command xml:space="preserve">l Cao</command>
+        <result xml:space="preserve">Cao ye is a man who experienced years of wind and frost. You have a feeling of deja vu on him.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1169">
+        <command xml:space="preserve">black room</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1139">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+White room
+the room is white and empty, only with elm talble in the center. You don't know why you are here, you desire to go out. 
+
+to the south is black room
+
+You can see an iron door, a sword and elm table here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1176"></child>
+            <child nodeId="node-1191"></child>
+            <child nodeId="node-1140"></child>
+            <child nodeId="node-1213"></child>
+            <child nodeId="node-1207"></child>
+        </children>
+    </item>
+    <item nodeId="node-1207">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+black room
+the room is black and dimmed stuffed with gloomy atmosphere, you don't like to stay here for long.
+
+You can see an iron door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1208"></child>
+        </children>
+    </item>
+    <item nodeId="node-1208">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+whilte room
+You can see an iron door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1209"></child>
+        </children>
+    </item>
+    <item nodeId="node-1209">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+black room
+the room is black and dimmed stuffed with gloomy atmosphere, you don't like to stay here for long.
+
+You can see an iron door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1210"></child>
+        </children>
+    </item>
+    <item nodeId="node-1210">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+whilte room
+You can see an iron door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1213">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1214"></child>
+        </children>
+    </item>
+    <item nodeId="node-1214">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+black room
+the room is black and dimmed stuffed with gloomy atmosphere, you don't like to stay here for long.
+
+You can see an iron door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1215"></child>
+        </children>
+    </item>
+    <item nodeId="node-1215">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+White room
+the room is white and empty, only with elm talble in the center. You don't know why you are here, you desire to go out. 
+
+to the south is black room
+
+You can see an iron door, a sword and elm table here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1140">
+        <command xml:space="preserve">l s</command>
+        <result xml:space="preserve">You see nothing unexpected in that direction.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1141"></child>
+        </children>
+    </item>
+    <item nodeId="node-1141">
+        <command xml:space="preserve">l door</command>
+        <result xml:space="preserve">You see nothing special about iron door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1142"></child>
+        </children>
+    </item>
+    <item nodeId="node-1142">
+        <command xml:space="preserve">open door</command>
+        <result xml:space="preserve">That's already open.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1143"></child>
+        </children>
+    </item>
+    <item nodeId="node-1143">
+        <command xml:space="preserve">close door</command>
+        <result xml:space="preserve">You close iron door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1144"></child>
+        </children>
+    </item>
+    <item nodeId="node-1144">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">whilte room
+You can see iron door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1145"></child>
+        </children>
+    </item>
+    <item nodeId="node-1145">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">(first opening iron door)
+
+black room
+the room is black and dimmed stuffed with gloomy atmosphere, you don't like to stay here for long.
+
+You can see iron door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1191">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">whilte room
+You can see an iron door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1192"></child>
+        </children>
+    </item>
+    <item nodeId="node-1192">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">whilte room
+You can see an iron door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1193"></child>
+        </children>
+    </item>
+    <item nodeId="node-1193">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">whilte room
+You can see an iron door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1194"></child>
+        </children>
+    </item>
+    <item nodeId="node-1194">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">whilte room
+You can see an iron door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1195"></child>
+        </children>
+    </item>
+    <item nodeId="node-1195">
+        <command xml:space="preserve">l wihte door</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1176">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1177"></child>
+        </children>
+    </item>
+    <item nodeId="node-1177">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1178"></child>
+        </children>
+    </item>
+    <item nodeId="node-1178">
+        <command xml:space="preserve">open door</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1146">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1147"></child>
+        </children>
+    </item>
+    <item nodeId="node-1147">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1148"></child>
+            <child nodeId="node-1159"></child>
+        </children>
+    </item>
+    <item nodeId="node-1159">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1160"></child>
+        </children>
+    </item>
+    <item nodeId="node-1160">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1161"></child>
+        </children>
+    </item>
+    <item nodeId="node-1161">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1162"></child>
+        </children>
+    </item>
+    <item nodeId="node-1162">
+        <command xml:space="preserve">open door</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1163"></child>
+        </children>
+    </item>
+    <item nodeId="node-1163">
+        <command xml:space="preserve">open iron door</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1148">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1149"></child>
+        </children>
+    </item>
+    <item nodeId="node-1149">
+        <command xml:space="preserve">open door</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1150"></child>
+        </children>
+    </item>
+    <item nodeId="node-1150">
+        <command xml:space="preserve">l door</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1151"></child>
+        </children>
+    </item>
+    <item nodeId="node-1151">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1152"></child>
+        </children>
+    </item>
+    <item nodeId="node-1152">
+        <command xml:space="preserve">open door</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1153"></child>
+        </children>
+    </item>
+    <item nodeId="node-1153">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1154"></child>
+        </children>
+    </item>
+    <item nodeId="node-1154">
+        <command xml:space="preserve">l door</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1155"></child>
+        </children>
+    </item>
+    <item nodeId="node-1155">
+        <command xml:space="preserve">door</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1156"></child>
+        </children>
+    </item>
+    <item nodeId="node-1156">
+        <command xml:space="preserve">close door</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1327">
+        <command xml:space="preserve">l ke</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1328"></child>
+        </children>
+    </item>
+    <item nodeId="node-1328">
+        <command xml:space="preserve">l key</command>
+        <result xml:space="preserve">a small key
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1221">
+        <command xml:space="preserve">l door</command>
+        <result xml:space="preserve">You see nothing special about the iron door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1222"></child>
+        </children>
+    </item>
+    <item nodeId="node-1222">
+        <command xml:space="preserve">close door</command>
+        <result xml:space="preserve">That's already closed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1223"></child>
+        </children>
+    </item>
+    <item nodeId="node-1223">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">(first opening the iron door)
+
+black room
+the room is black and dimmed stuffed with gloomy atmosphere, you don't like to stay here for long.
+
+You can see an iron door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1224"></child>
+        </children>
+    </item>
+    <item nodeId="node-1224">
+        <command xml:space="preserve">close door</command>
+        <result xml:space="preserve">You close the iron door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1225"></child>
+        </children>
+    </item>
+    <item nodeId="node-1225">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening the iron door)
+
+White room
+the room is white and empty, only with elm talble in the center. You don't know why you are here, you desire to go out. 
+
+to the south is black room
+
+You can see an iron door, a sword and elm table here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1119">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">White room
+the room is white and empty, only with elm talble in the center. You don't know why you are here, you desire to go out. 
+
+to the south is black room
+
+You can see an iron door, a sword and elm table (on which is key) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1126"></child>
+            <child nodeId="node-1121"></child>
+            <child nodeId="node-1120"></child>
+            <child nodeId="node-1230"></child>
+        </children>
+    </item>
+    <item nodeId="node-1230">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">(first opening the iron door)
+
+black room
+the room is black and dimmed stuffed with gloomy atmosphere, you don't like to stay here for long.
+
+You can see an iron door and wooden box (empty) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1231"></child>
+            <child nodeId="node-1236"></child>
+        </children>
+    </item>
+    <item nodeId="node-1236">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+orange room
+The room is painted totally orange. 
+
+You can see Cao ye here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1237"></child>
+        </children>
+    </item>
+    <item nodeId="node-1237">
+        <command xml:space="preserve">greet</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1238"></child>
+        </children>
+    </item>
+    <item nodeId="node-1238">
+        <command xml:space="preserve">hi</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1239"></child>
+        </children>
+    </item>
+    <item nodeId="node-1239">
+        <command xml:space="preserve">say Cao</command>
+        <result xml:space="preserve">(to Cao ye)
+There is no reply.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1240"></child>
+        </children>
+    </item>
+    <item nodeId="node-1240">
+        <command xml:space="preserve">kill Cao</command>
+        <result xml:space="preserve">Violence isn't the answer to this one.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1241"></child>
+        </children>
+    </item>
+    <item nodeId="node-1241">
+        <command xml:space="preserve">l Cao</command>
+        <result xml:space="preserve">Cao ye is a man who experienced years of wind and frost. You have a feeling of deja vu on him.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1231">
+        <command xml:space="preserve">l door</command>
+        <result xml:space="preserve">You see nothing special about the iron door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1232"></child>
+        </children>
+    </item>
+    <item nodeId="node-1232">
+        <command xml:space="preserve">enter door</command>
+        <result xml:space="preserve">
+White room
+the room is white and empty, only with elm talble in the center. You don't know why you are here, you desire to go out. 
+
+to the south is black room
+
+You can see an iron door, a sword and elm table here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1233"></child>
+        </children>
+    </item>
+    <item nodeId="node-1233">
+        <command xml:space="preserve">enter door</command>
+        <result xml:space="preserve">
+black room
+the room is black and dimmed stuffed with gloomy atmosphere, you don't like to stay here for long.
+
+You can see an iron door and wooden box (empty) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1120">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Example Location
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1121">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1122"></child>
+        </children>
+    </item>
+    <item nodeId="node-1122">
+        <command xml:space="preserve">kill myself</command>
+        <result xml:space="preserve">Violence isn't the answer to this one.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1123"></child>
+        </children>
+    </item>
+    <item nodeId="node-1123">
+        <command xml:space="preserve">heal</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1124"></child>
+        </children>
+    </item>
+    <item nodeId="node-1124">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Example Location
+hhdsajfh
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1125"></child>
+        </children>
+    </item>
+    <item nodeId="node-1125">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1126">
+        <command xml:space="preserve">go out</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1242">
+        <command xml:space="preserve">help</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1243"></child>
+        </children>
+    </item>
+    <item nodeId="node-1243">
+        <command xml:space="preserve">h</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1247">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1248"></child>
+        </children>
+    </item>
+    <item nodeId="node-1248">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">(first opening the iron door)
+
+black room
+the room is black and dimmed stuffed with gloomy atmosphere, you don't like to stay here for long.
+
+You can see an iron door and wooden box (in which is a bottle of milk) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1249"></child>
+            <child nodeId="node-1279"></child>
+        </children>
+    </item>
+    <item nodeId="node-1279">
+        <command xml:space="preserve">take milk</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1280"></child>
+        </children>
+    </item>
+    <item nodeId="node-1280">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+orange room
+The room is painted totally orange. 
+
+there is a strange button on the wall
+
+You can also see Cao ye here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1281"></child>
+        </children>
+    </item>
+    <item nodeId="node-1281">
+        <command xml:space="preserve">ask cao</command>
+        <result xml:space="preserve">(for the bottle of milk)
+(Cao ye first taking the bottle of milk)
+Cao ye has better things to do.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1282"></child>
+        </children>
+    </item>
+    <item nodeId="node-1282">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a bottle of milk
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1283"></child>
+        </children>
+    </item>
+    <item nodeId="node-1283">
+        <command xml:space="preserve">ask cao for hat</command>
+        <result xml:space="preserve">Cao ye: thanks for the milk, take this.
+
+(Cao ye first taking the top hat)
+Cao ye has better things to do.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1249">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+orange room
+The room is painted totally orange. 
+
+You can see Cao ye here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1250"></child>
+        </children>
+    </item>
+    <item nodeId="node-1250">
+        <command xml:space="preserve">Cao</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1251"></child>
+        </children>
+    </item>
+    <item nodeId="node-1251">
+        <command xml:space="preserve">l cao</command>
+        <result xml:space="preserve">Cao ye is a man who experienced years of wind and frost. You have a feeling of deja vu on him.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1252"></child>
+        </children>
+    </item>
+    <item nodeId="node-1252">
+        <command xml:space="preserve">l hat</command>
+        <result xml:space="preserve">an old worn top hat.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1284">
+        <command xml:space="preserve">ask</command>
+        <result xml:space="preserve">What do you want to ask yourself for?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1285"></child>
+        </children>
+    </item>
+    <item nodeId="node-1285">
+        <command xml:space="preserve">ask myself for mikl</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1286"></child>
+        </children>
+    </item>
+    <item nodeId="node-1286">
+        <command xml:space="preserve">ask myself for</command>
+        <result xml:space="preserve">What do you want to ask yourself for?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1287"></child>
+        </children>
+    </item>
+    <item nodeId="node-1287">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You must name something more substantial.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1288"></child>
+        </children>
+    </item>
+    <item nodeId="node-1288">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">(first opening the iron door)
+
+black room
+the room is black and dimmed stuffed with gloomy atmosphere, you don't like to stay here for long.
+
+You can see an iron door and wooden box (in which is a bottle of milk) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1289"></child>
+        </children>
+    </item>
+    <item nodeId="node-1289">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+White room
+the room is white and empty, only with elm talble in the center. You don't know why you are here, you desire to go out. 
+
+to the south is black room
+
+You can see an iron door, a sword and elm table here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1290"></child>
+        </children>
+    </item>
+    <item nodeId="node-1290">
+        <command xml:space="preserve">take mik</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1291"></child>
+        </children>
+    </item>
+    <item nodeId="node-1291">
+        <command xml:space="preserve">take milk</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1292"></child>
+        </children>
+    </item>
+    <item nodeId="node-1292">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">White room
+the room is white and empty, only with elm talble in the center. You don't know why you are here, you desire to go out. 
+
+to the south is black room
+
+You can see an iron door, a sword and elm table here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1293"></child>
+        </children>
+    </item>
+    <item nodeId="node-1293">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+black room
+the room is black and dimmed stuffed with gloomy atmosphere, you don't like to stay here for long.
+
+You can see an iron door and wooden box (in which is a bottle of milk) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1294"></child>
+        </children>
+    </item>
+    <item nodeId="node-1294">
+        <command xml:space="preserve">take milk</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1295"></child>
+        </children>
+    </item>
+    <item nodeId="node-1295">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+orange room
+The room is painted totally orange. 
+
+there is a strange button on the wall
+
+You can also see Cao ye here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1296"></child>
+        </children>
+    </item>
+    <item nodeId="node-1296">
+        <command xml:space="preserve">show cao milk</command>
+        <result xml:space="preserve">Cao ye is unimpressed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1297"></child>
+        </children>
+    </item>
+    <item nodeId="node-1297">
+        <command xml:space="preserve">ask cao</command>
+        <result xml:space="preserve">(for the bottle of milk)
+(Cao ye first taking the bottle of milk)
+Cao ye has better things to do.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1298"></child>
+        </children>
+    </item>
+    <item nodeId="node-1298">
+        <command xml:space="preserve">ask</command>
+        <result xml:space="preserve">(Cao ye for the bottle of milk)
+(Cao ye first taking the bottle of milk)
+Cao ye has better things to do.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1299"></child>
+        </children>
+    </item>
+    <item nodeId="node-1299">
+        <command xml:space="preserve">ask</command>
+        <result xml:space="preserve">(Cao ye for the bottle of milk)
+(Cao ye first taking the bottle of milk)
+Cao ye has better things to do.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1300"></child>
+        </children>
+    </item>
+    <item nodeId="node-1300">
+        <command xml:space="preserve">ask</command>
+        <result xml:space="preserve">(Cao ye for the bottle of milk)
+(Cao ye first taking the bottle of milk)
+Cao ye has better things to do.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1301"></child>
+        </children>
+    </item>
+    <item nodeId="node-1301">
+        <command xml:space="preserve">waht</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1302"></child>
+        </children>
+    </item>
+    <item nodeId="node-1302">
+        <command xml:space="preserve">ask cao for milk</command>
+        <result xml:space="preserve">(Cao ye first taking the bottle of milk)
+Cao ye has better things to do.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1303"></child>
+        </children>
+    </item>
+    <item nodeId="node-1303">
+        <command xml:space="preserve">ask cao for hat</command>
+        <result xml:space="preserve">Cao ye: thanks for the milk, take this.
+
+what
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+</Skein>

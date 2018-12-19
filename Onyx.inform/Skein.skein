@@ -1,0 +1,595 @@
+<?xml version="1.0"?>
+
+<Skein rootNode="node-1218">
+    <generator>Inform Mac Client (Inform version 1.64/6.33/6M62)</generator>
+    <item nodeId="node-1218">
+        <command xml:space="preserve">Onyx</command>
+        <result xml:space="preserve">
+
+
+Onyx
+An Interactive Fiction
+Release 1 / Serial number 160326 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+Deep Forest
+You are lost in a deep forest. The trees grow so close together that you cannot see the sun or the sky, and no grass or small plants thrive on the ground. 你迷失在一个幽静的森林里，繁茂的树木甚至遮住了太阳和天空，地上不长草也没有其他小型植物 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1269"></child>
+            <child nodeId="node-1265"></child>
+            <child nodeId="node-1248"></child>
+            <child nodeId="node-1239"></child>
+            <child nodeId="node-1219"></child>
+        </children>
+    </item>
+    <item nodeId="node-1219">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Baba Yaga's Garden
+In this garden grow plants that eat insects and plants that eat birds. It is bordered by a bone fence, and the pavements are made of a giant's kneecaps.
+
+In the center of the garden is Baba Yaga's hut, which walks on chicken legs. Currently the hut is squatting on the ground.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1220"></child>
+        </children>
+    </item>
+    <item nodeId="node-1220">
+        <command xml:space="preserve">take hut</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1221"></child>
+        </children>
+    </item>
+    <item nodeId="node-1221">
+        <command xml:space="preserve">c</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1222"></child>
+        </children>
+    </item>
+    <item nodeId="node-1222">
+        <command xml:space="preserve">center</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1223"></child>
+        </children>
+    </item>
+    <item nodeId="node-1223">
+        <command xml:space="preserve">x Baba Yaga's hut</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1224"></child>
+        </children>
+    </item>
+    <item nodeId="node-1224">
+        <command xml:space="preserve">go Baba Yaga's hut</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1225"></child>
+        </children>
+    </item>
+    <item nodeId="node-1225">
+        <command xml:space="preserve">go hut</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1226"></child>
+        </children>
+    </item>
+    <item nodeId="node-1226">
+        <command xml:space="preserve">lool</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1227"></child>
+        </children>
+    </item>
+    <item nodeId="node-1227">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Baba Yaga's Garden
+In this garden grow plants that eat insects and plants that eat birds. It is bordered by a bone fence, and the pavements are made of a giant's kneecaps.
+
+In the center of the garden is Baba Yaga's hut, which walks on chicken legs. Currently the hut is squatting on the ground.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1228"></child>
+        </children>
+    </item>
+    <item nodeId="node-1228">
+        <command xml:space="preserve">take inventory</command>
+        <result xml:space="preserve">You are carrying:
+  a magic ball
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1229"></child>
+        </children>
+    </item>
+    <item nodeId="node-1229">
+        <command xml:space="preserve">x ball</command>
+        <result xml:space="preserve">Whenever you drop this, it rolls in the way you should go.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1230"></child>
+        </children>
+    </item>
+    <item nodeId="node-1230">
+        <command xml:space="preserve">drop ball</command>
+        <result xml:space="preserve">It rolls suggestively towards the inside. You pick it up again before it can get too far ahead of you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1231"></child>
+        </children>
+    </item>
+    <item nodeId="node-1231">
+        <command xml:space="preserve">west</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1232"></child>
+        </children>
+    </item>
+    <item nodeId="node-1232">
+        <command xml:space="preserve">x me</command>
+        <result xml:space="preserve">Some people call you Ivan the Fool, but you pay no attention to their rudeness.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1233"></child>
+        </children>
+    </item>
+    <item nodeId="node-1233">
+        <command xml:space="preserve">in</command>
+        <result xml:space="preserve">
+Baba Yaga's Hut
+From in here, there is no evidence of the hut's chicken nature except that the wallpaper is made of yellow-white feathers.
+
+One corner of the hut is taken up by the gigantic mortar, big enough to stand in.
+
+Baba Yaga sits at her work table, sewing symbols into a magic towel.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1234"></child>
+        </children>
+    </item>
+    <item nodeId="node-1234">
+        <command xml:space="preserve">l baba</command>
+        <result xml:space="preserve">Her teeth are made of iron and her eyes can see in the dark. Though she is old, her fingers are nimble, and she has forgotten nothing that she has ever seen.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1235"></child>
+        </children>
+    </item>
+    <item nodeId="node-1235">
+        <command xml:space="preserve">x towel</command>
+        <result xml:space="preserve">To judge by the spell worked into its fringes, this is a towel that can turn into a bridge across any river or chasm.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1236"></child>
+        </children>
+    </item>
+    <item nodeId="node-1236">
+        <command xml:space="preserve">drop ball</command>
+        <result xml:space="preserve">The ball rolls around uncertainly and then comes back to sit at your feet with such an apologetic air that you have to pick it back up.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1237"></child>
+        </children>
+    </item>
+    <item nodeId="node-1237">
+        <command xml:space="preserve">l mortar</command>
+        <result xml:space="preserve">Baba Yaga flies around inside it whenever she is in too much of a hurry to make her hut walk.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1238"></child>
+        </children>
+    </item>
+    <item nodeId="node-1238">
+        <command xml:space="preserve">in mortar</command>
+        <result xml:space="preserve">I only understood you as far as wanting to (go) in.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1239">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Deep Forest
+You are lost in a deep forest. The trees grow so close together that you cannot see the sun or the sky, and no grass or small plants thrive on the ground. 你迷失在一个幽静的森林里，繁茂的树木甚至遮住了太阳和天空，地上不长草也没有其他小型植物 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1240"></child>
+        </children>
+    </item>
+    <item nodeId="node-1240">
+        <command xml:space="preserve">look around</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1241"></child>
+        </children>
+    </item>
+    <item nodeId="node-1241">
+        <command xml:space="preserve">ll</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1242"></child>
+        </children>
+    </item>
+    <item nodeId="node-1242">
+        <command xml:space="preserve">ls</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1243"></child>
+        </children>
+    </item>
+    <item nodeId="node-1243">
+        <command xml:space="preserve">inventroy</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1244"></child>
+        </children>
+    </item>
+    <item nodeId="node-1244">
+        <command xml:space="preserve">l inventory</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1245"></child>
+        </children>
+    </item>
+    <item nodeId="node-1245">
+        <command xml:space="preserve">inventory</command>
+        <result xml:space="preserve">You are carrying:
+  a magic ball
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1246"></child>
+        </children>
+    </item>
+    <item nodeId="node-1246">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a magic ball
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1247"></child>
+        </children>
+    </item>
+    <item nodeId="node-1247">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a magic ball
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1248">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Deep Forest
+You are lost in a deep forest. The trees grow so close together that you cannot see the sun or the sky, and no grass or small plants thrive on the ground. 你迷失在一个幽静的森林里，繁茂的树木甚至遮住了太阳和天空，地上不长草也没有其他小型植物 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1249"></child>
+        </children>
+    </item>
+    <item nodeId="node-1249">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a magic ball
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1250"></child>
+        </children>
+    </item>
+    <item nodeId="node-1250">
+        <command xml:space="preserve">x ball</command>
+        <result xml:space="preserve">Whenever you drop this, it rolls in the way you should go. 当你扔下这只魔法球时，它会向你该去的方向滚动。 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1251"></child>
+        </children>
+    </item>
+    <item nodeId="node-1251">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Baba Yaga's Garden
+In this garden grow plants that eat insects and plants that eat birds. It is bordered by a bone fence, and the pavements are made of a giant's kneecaps. 花园里长了可以吃昆虫的食肉植物还有吃鸟的植物，这些植物周围用白骨做的篱笆围住，小路是用巨人的膝盖骨铺的。
+
+In the center of the garden is Baba Yaga's hut, which walks on chicken legs. Currently the hut is squatting on the ground. 花园中间是Baba Yaga的小棚屋，屋子长了一双鸡的腿，现在正蹲在地上
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1252"></child>
+        </children>
+    </item>
+    <item nodeId="node-1252">
+        <command xml:space="preserve">x m</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1253"></child>
+        </children>
+    </item>
+    <item nodeId="node-1253">
+        <command xml:space="preserve">x me</command>
+        <result xml:space="preserve">Some people call you Ivan the Fool, but you pay no attention to their rudeness. 有些人会喊你傻Ivan，但是你无视了这些粗言。 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1254"></child>
+        </children>
+    </item>
+    <item nodeId="node-1254">
+        <command xml:space="preserve">in</command>
+        <result xml:space="preserve">
+Baba Yaga's Hut
+From in here, there is no evidence of the hut's chicken nature except that the wallpaper is made of yellow-white feathers. 看起来除了用黄白相间的羽毛做的墙纸，并没有什么证据表明这个棚屋原来是一只鸡 
+
+One corner of the hut is taken up by the gigantic mortar, big enough to stand in. 屋子的一角有一辆巨大的迫击炮，人可以站在里面.
+
+Baba Yaga sits at her work table, sewing symbols into a magic towel.
+
+Baba Yaga正坐在桌边，缝制一条魔法毛巾.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1255"></child>
+        </children>
+    </item>
+    <item nodeId="node-1255">
+        <command xml:space="preserve">e towel</command>
+        <result xml:space="preserve">I only understood you as far as wanting to (go) e.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1256"></child>
+        </children>
+    </item>
+    <item nodeId="node-1256">
+        <command xml:space="preserve">x towel</command>
+        <result xml:space="preserve">To judge by the spell worked into its fringes, this is a towel that can turn into a bridge across any river or chasm. 从毛巾的流苏上符文来看，这个毛巾可以在你遇到河流或者深坑的时候变成桥 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1257"></child>
+        </children>
+    </item>
+    <item nodeId="node-1257">
+        <command xml:space="preserve">take towel</command>
+        <result xml:space="preserve">That seems to belong to Baba Yaga.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1258"></child>
+        </children>
+    </item>
+    <item nodeId="node-1258">
+        <command xml:space="preserve">fuck Baba</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1259"></child>
+        </children>
+    </item>
+    <item nodeId="node-1259">
+        <command xml:space="preserve">kill Baba</command>
+        <result xml:space="preserve">Violence isn't the answer to this one.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1260"></child>
+        </children>
+    </item>
+    <item nodeId="node-1260">
+        <command xml:space="preserve">say Baba</command>
+        <result xml:space="preserve">(to Baba Yaga)
+There is no reply.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1261"></child>
+        </children>
+    </item>
+    <item nodeId="node-1261">
+        <command xml:space="preserve">drop ball</command>
+        <result xml:space="preserve">The ball rolls around uncertainly and then comes back to sit at your feet with such an apologetic air that you have to pick it back up. 这只球在地上不知所措地绕圈，不一会它自己又慢慢滚回你的脚边，似乎在表达深深的歉意，你心疼地捡起了球。 
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1262"></child>
+        </children>
+    </item>
+    <item nodeId="node-1262">
+        <command xml:space="preserve">l mortar</command>
+        <result xml:space="preserve">Baba Yaga flies around inside it whenever she is in too much of a hurry to make her hut walk, 当Baba Yaga 来不及让他的棚屋走动时，她就用这个迫击炮对外射击.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1263"></child>
+        </children>
+    </item>
+    <item nodeId="node-1263">
+        <command xml:space="preserve">in mortar</command>
+        <result xml:space="preserve">I only understood you as far as wanting to (go) in.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1264"></child>
+        </children>
+    </item>
+    <item nodeId="node-1264">
+        <command xml:space="preserve">get in mortar</command>
+        <result xml:space="preserve">"Oh, I wouldn't do that, Foolish Ivan," says Baba Yaga. "Where it would take you, you're not ready to go." 哦，别这么做，傻Ivan,你还没有准备好去它要把你带去的地方。 
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1265">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a magic ball
+  a fucking ball
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1266"></child>
+        </children>
+    </item>
+    <item nodeId="node-1266">
+        <command xml:space="preserve">drop ball</command>
+        <result xml:space="preserve">Which do you mean, the magic ball or the fucking ball?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1267"></child>
+        </children>
+    </item>
+    <item nodeId="node-1267">
+        <command xml:space="preserve">fucking ball</command>
+        <result xml:space="preserve">Dropped.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1268"></child>
+        </children>
+    </item>
+    <item nodeId="node-1268">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Deep Forest
+You are lost in a deep forest. The trees grow so close together that you cannot see the sun or the sky, and no grass or small plants thrive on the ground. 你迷失在一个幽静的森林里，繁茂的树木甚至遮住了太阳和天空，地上不长草也没有其他小型植物 
+
+You can see a fucking ball here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1269">
+        <command xml:space="preserve">cut</command>
+        <result xml:space="preserve">(the magic ball)
+Cutting it up would achieve little.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1270"></child>
+        </children>
+    </item>
+    <item nodeId="node-1270">
+        <command xml:space="preserve">fuck</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1271"></child>
+        </children>
+    </item>
+    <item nodeId="node-1271">
+        <command xml:space="preserve">shit</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1272"></child>
+        </children>
+    </item>
+    <item nodeId="node-1272">
+        <command xml:space="preserve">did</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1273"></child>
+        </children>
+    </item>
+    <item nodeId="node-1273">
+        <command xml:space="preserve">do</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1274"></child>
+        </children>
+    </item>
+    <item nodeId="node-1274">
+        <command xml:space="preserve">hack</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1275"></child>
+        </children>
+    </item>
+    <item nodeId="node-1275">
+        <command xml:space="preserve">run</command>
+        <result xml:space="preserve">You'll have to say which compass direction to go in.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1276"></child>
+        </children>
+    </item>
+    <item nodeId="node-1276">
+        <command xml:space="preserve">change</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1277"></child>
+        </children>
+    </item>
+    <item nodeId="node-1277">
+        <command xml:space="preserve">sit</command>
+        <result xml:space="preserve">(on the magic ball)
+That's not something you can sit down on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1278"></child>
+        </children>
+    </item>
+    <item nodeId="node-1278">
+        <command xml:space="preserve">kill</command>
+        <result xml:space="preserve">(the magic ball)
+Violence isn't the answer to this one.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+</Skein>

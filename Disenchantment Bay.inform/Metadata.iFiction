@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
+    <story>
+        <identification>
+            <ifid>3EF381CD-AB05-486D-A6A2-01019C789911</ifid>
+            <format>glulx</format>
+        </identification>
+        <bibliographic>
+            <title>Disenchantment Bay</title>
+            <author>ywx</author>
+            <headline>An Interactive Fiction</headline>
+            <genre>Fiction</genre>
+            <firstpublished>2018</firstpublished>
+            <language>en</language>
+            <group>Inform</group>
+        </bibliographic>
+        <cover>
+            <format>png</format>
+            <height>960</height>
+            <width>960</width>
+            <description>The cover art.</description>
+        </cover>
+        <releases>
+            <attached>
+                <release>
+                    <releasedate>2018-12-19</releasedate>
+                    <version>1</version>
+                    <compiler>Inform 7</compiler>
+                    <compilerversion>6M62</compilerversion>
+                </release>
+            </attached>
+        </releases>
+        <colophon>
+            <generator>Inform 7</generator>
+            <generatorversion>6M62</generatorversion>
+            <originated>2018-12-19</originated>
+        </colophon>
+        <glulx>
+            <serial>181219</serial>
+            <release>1</release>
+            <compiler>Inform 7 build 6M62</compiler>
+            <coverpicture>1</coverpicture>
+        </glulx>
+    </story>
+</ifindex>

@@ -1,0 +1,57 @@
+! Blurb file created by Inform build 6M62
+
+status "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/CblorbModel.html" "/Users/ywx/Documents/inform7/Onyx.inform/Build/StatusCblorb.html"
+
+
+! Identification
+
+project folder "/Users/ywx/Documents/inform7/Onyx.inform"
+release to "/Users/ywx/Documents/inform7/Onyx.materials/Release"
+
+! Blorb instructions
+
+storyfile leafname "Onyx.gblorb"
+storyfile "/Users/ywx/Documents/inform7/Onyx.inform/Build/output.ulx" include
+ifiction "/Users/ywx/Documents/inform7/Onyx.inform/Metadata.iFiction" include
+cover "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/Cover.jpg"
+picture 1 "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/Cover.jpg"
+release file "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/Cover.jpg"
+release file "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/Small Cover.jpg"
+
+! Placeholder variables
+
+placeholder [IFID] = "34E0C418-740B-4E47-B6AF-73F68F0EA41F"
+placeholder [RELEASE] = "1"
+placeholder [YEAR] = "2016"
+placeholder [TITLE] = "Onyx"
+placeholder [AUTHOR] = "ywx Release along with cover art"
+placeholder [BLURB] = "A work of interactive fiction."
+
+! Other material to release
+
+
+! Website instructions
+
+placeholder [ENCODEDSTORYFILE] = "Onyx.gblorb.js"
+template path "/Users/ywx/Documents/inform7/Onyx.materials/Templates"
+template path "/Users/ywx/Library/Inform/Templates"
+template path "/Applications/Inform.app/Contents/Resources/Internal/Templates"
+placeholder [INTERPRETERSCRIPTS] = " "
+interpreter "Quixe" "g"
+base64 "/Users/ywx/Documents/inform7/Onyx.inform/Build/output.ulx" to "/Users/ywx/Documents/inform7/Onyx.materials/Release/interpreter/Onyx.gblorb.js"
+
+! Website instructions
+
+template path "/Users/ywx/Documents/inform7/Onyx.materials/Templates"
+template path "/Users/ywx/Library/Inform/Templates"
+template path "/Applications/Inform.app/Contents/Resources/Internal/Templates"
+css
+website "Standard"
+status instruction ||&nbsp;<a href="source:story.ni#line3"><img border=0 src=inform:/doc_images/Reveal.tif></a>||
+status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc403.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a file of "Such-and-Such" called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc401.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc411.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory postcard'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||

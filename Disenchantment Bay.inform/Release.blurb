@@ -1,0 +1,55 @@
+! Blurb file created by Inform build 6M62
+
+status "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/CblorbModel.html" "/Users/ywx/Documents/inform7/Disenchantment Bay.inform/Build/StatusCblorb.html"
+
+
+! Identification
+
+project folder "/Users/ywx/Documents/inform7/Disenchantment Bay.inform"
+release to "/Users/ywx/Documents/inform7/Disenchantment Bay.materials/Release"
+
+! Blorb instructions
+
+storyfile leafname "Disenchantment Bay.gblorb"
+storyfile "/Users/ywx/Documents/inform7/Disenchantment Bay.inform/Build/output.ulx" include
+ifiction "/Users/ywx/Documents/inform7/Disenchantment Bay.inform/Metadata.iFiction" include
+cover "/Users/ywx/Documents/inform7/Disenchantment Bay.materials/Cover.png"
+picture 1 "/Users/ywx/Documents/inform7/Disenchantment Bay.materials/Cover.png"
+
+! Placeholder variables
+
+placeholder [IFID] = "3EF381CD-AB05-486D-A6A2-01019C789911"
+placeholder [RELEASE] = "1"
+placeholder [YEAR] = "2018"
+placeholder [TITLE] = "Disenchantment Bay"
+placeholder [AUTHOR] = "ywx"
+placeholder [BLURB] = "A work of interactive fiction."
+
+! Other material to release
+
+
+! Website instructions
+
+placeholder [ENCODEDSTORYFILE] = "Disenchantment Bay.gblorb.js"
+template path "/Users/ywx/Documents/inform7/Disenchantment Bay.materials/Templates"
+template path "/Users/ywx/Library/Inform/Templates"
+template path "/Applications/Inform.app/Contents/Resources/Internal/Templates"
+placeholder [INTERPRETERSCRIPTS] = " "
+interpreter "Quixe" "g"
+base64 "/Users/ywx/Documents/inform7/Disenchantment Bay.inform/Build/output.ulx" to "/Users/ywx/Documents/inform7/Disenchantment Bay.materials/Release/interpreter/Disenchantment Bay.gblorb.js"
+
+! Website instructions
+
+template path "/Users/ywx/Documents/inform7/Disenchantment Bay.materials/Templates"
+template path "/Users/ywx/Library/Inform/Templates"
+template path "/Applications/Inform.app/Contents/Resources/Internal/Templates"
+css
+website "Standard"
+status instruction ||&nbsp;<a href="source:story.ni#line3"><img border=0 src=inform:/doc_images/Reveal.tif></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line4"><img border=0 src=inform:/doc_images/Reveal.tif></a>||
+status alternative ||Using 'Release along with a file of "Such-and-Such" called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc401.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc411.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory postcard'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||
